@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+                                /* header-- inicio */                            
+                                
+header{
+    background-color: rgb(98, 199, 98);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    }                        
+        .imagenVivero{
+        display: inline;
+        margin: 0px auto;
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+        border: solid 1px;
+        }
+        
+    .barraNav li{
+    list-style: none;
+    display: inline-block;
+    padding: 19px;
+    margin: 10px;
+    font-size: 30px;
+    
+   
+     }                          
+     
+                                /*header -- fin */
+
+
+
+                                 /*main -- inicio*/
+    main{
+        margin: 2px;
+        background-color:rgb(207, 209, 173);
+        width: 100%;
+        }
+    .textoEnriquecido{
+    font-size: 21px;
+    font-weight: 450;
+    font-style: oblique;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 36px;
+       }
+       
+   .imagenLarga{
+    width: 100%;
+    height: 350px;
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: auto;
+    object-fit: cover;
+   }
+   .vivero_dentro{
+    max-width: 300px;
+    max-height: 180px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin: auto;
+    object-fit: none;
+   }
+    .barrasRedes li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin: 20px;
+    }
+    .flores{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    }
+    .primaveraFlor{
+        height: 230px;
+        width: 350px;
+        
+    }
+    .tienda_tienda{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        padding: 15px;      
+    }
+    .tituloSupe{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        }
+    .mainTienda{
+        display: grid;
+        grid-template-columns:repeat(5, 1fr);
+        }
+    a{
+        text-decoration: none;
+        color: black ;
+      }
+     main li{
+         list-style: none;
+        text-decoration: none;
+        color: black ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 21px;
+        font-weight: 450;
+        font-style: initial;
+        font-family:Arial, Helvetica, sans-serif;
+        line-height: 26px;
+      }
+        .textoVerde{
+        color: rgb(0, 126, 0);
+        text-align:left;
+        font-size: 18px;
+        display: block;
+        margin: 0px auto;
+    }
+    .mainContent{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        justify-items: center;
+        
+    }
+    .mainQ{
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        justify-items: center;
+        align-items: center;
+    }
+    
+
+                                        /*main -- fin */
+    footer{
+    background-color: darkseagreen;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 60px;
+    }
+    
+    .formulario{
+            text-align: center;
+            display: block;
+            margin: 0px auto;
+         }
+         @media (max-width: 768px){
+             .main-home{
+                 grid-template-columns: 1fr;
+                 grid-template-rows:repeat(6);
+             }
+             .mainTienda{
+                 grid-template-columns: 1fr;
+                 grid-template-rows: repeat(6);
+                }
+                .mainQ{
+                    grid-template-columns: 1fr;
+                }
+                .mainContent{
+                    grid-template-columns: 1fr;
+                }
+              header{
+                  grid-template-columns: 1fr;
+              } 
+              footer{
+                  grid-template-columns: 1fr;
+                  grid-template-rows: 1fr 1fr 1fr;
+              }
+         }
+    
