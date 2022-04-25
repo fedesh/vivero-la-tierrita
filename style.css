@@ -102,6 +102,17 @@ header{
         height: 300px;
         padding: 15px;      
     }
+    .mainTienda div{
+
+        display: flex;
+    
+        flex-direction: column;
+    
+        justify-content: center;
+    
+        align-items: center;
+    
+    }
     .tituloSupe{
         display: flex;
         flex-direction: column-reverse;
