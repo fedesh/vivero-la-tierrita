@@ -14,6 +14,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: linear-gradient(to bottom, yellow , green )
    
     }                        
         .imagenVivero{
@@ -33,7 +34,13 @@ header{
     font-size: 30px;
     
    
-     }                          
+     }   
+     .barraNav li{
+         transition: transform 1s;
+     }  
+     .barraNav li:hover{
+         transform: scale(1,2);
+     }                     
      
                                 /*header -- fin */
 
@@ -154,6 +161,13 @@ header{
     justify-content:center;
     width: 100%;
     height: 60px;
+    background-image: linear-gradient(to bottom, rgb(185, 185, 107) , green )
+    }
+    .barrasRedes li{
+        transition: transform 1s;
+    }
+    .barrasRedes li:hover{
+        transform: scale(2)
     }
     
     .formulario{
