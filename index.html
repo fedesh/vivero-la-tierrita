@@ -6,46 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagenes/icono.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>vivero</title>
+</head>
     
 <body>
     <header>
         <div>
       <img class="imagenVivero" src="./imagenes/planta.jpg" alt="imagen de vivero">
     </div>
-      <nav>
-        <ul class="barraNav">
-            <li >
-                <a href="#">home</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../paginas/tienda.html">tienda</a>
             </li>
-            <li>
-                <a href="./paginas/tienda.html">tienda</a>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/quienes somos.html">quienes somos</a>
             </li>
-            <li>
-                <a href="./paginas/quienes somos.html">quienes somos</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                temporadas
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">verano</a></li>
+                <li><a class="dropdown-item" href="#">otoño</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">invierno</a></li>
+                <li><a class="dropdown-item" href="#">primavera</a></li>
+              </ul>
             </li>
-            <li>
-                <a href="./paginas/temporadas.html">temporadas</a>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/contacto.html">contacto</a>
             </li>
-            <li>
-                <a href="./paginas/contacto.html">contacto</a>
-            </li>
-        </ul>
-      </nav>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
     </header>
     <main class="main-home">
         <img class="imagenLarga" src="./imagenes/imagen viveroo.jpg" alt="imagen vivero">
         <p class="textoEnriquecido">
             Las plantas tienen el poder de transformar nuestro estado anímico ya que minimizan el estrés, mejoran la productividad de nuestro día a día, reducen la fatiga y promueven el bienestar general. También fortalecen nuestro vínculo con naturaleza. Además, purifican el aire mediante la fotosíntesis, modificando el dióxido de carbono en energía limpia y favorable para todos
         </p>
-        <img class="vivero_dentro" src="./imagenes/imagen_vivero4.jpg" alt="imagen vivero">
-        <img class="vivero_dentro" src="./imagenes/imagen_vivero.jpg" alt="imagen vivero">
-        <img class="vivero_dentro" src="./imagenes/imagen_vivero2.jpg" alt="imagen vivero">
-        <img class="vivero_dentro" src="./imagenes/imagen_vivero3.jpg" alt="imagen vivero">  
-        <img class="vivero_dentro" src="./imagenes/imagen_vivero5.jpg" alt="imagen vivero">     
-        <img class="vivero_dentro" src="./imagenes/temporada primavera.jpg" alt="imagen vivero">
-        <img class="vivero_dentro" src="./imagenes/imagen_vivero9.jpg" alt="imagen vivero">
+        <!-- carrucel -->
         
+        <section class="infoHome">
+          <div class="macetas_a">
+            <img class="imagen_pequeña" src="./imagenes/varias_macetas.jpg" alt="macetas">
+            <h2 class="macetas_a2">
+              macetas
+            </h2>
+            <p>
+              Disponemos de una amplia variedad de macetas Constantemente ingresan nuevos modelos de macetas de diversos materiales, formas, colores y texturasTe aconsejamos para que elijas la maceta correcta Muchas veces es difícil elegir la maceta acorde al color, forma y tamaño..
+            </p>
+          </div>
+          <div class="flores_b">
+            <img class="imagen_pequeña" src="./imagenes/varias_flores.jpg" alt="flores">
+            <h2 class="flores_b2">
+              flores
+            </h2>
+            <p>
+              Disponemos de una amplia variedad de flores de todas las estaciones, tenemos una gran cantidad de Stock para todos los gustos. Veni y empezá a armar tu colección.Te vamos a ayudar y aconsejar cómo cuidar tus platas en vivero <span class="textoEnriquecido"> La Tierrita </span>, tambien vamos a darte los mejores tips de cuidado para tu jardin.
+            </p>
+          </div>
+          <div class="jardin_c">
+            <img class="imagen_pequeña" src="./imagenes/jardin.jpg" alt="imagen_jardin">
+            <h2 class="jardin_c2">
+              tu jardin, tu lugar
+            </h2>
+            <p>
+              Al igual que nuestro jardín tiene una utilidad recreativa donde la luz, las formas, las sensaciones, los colores conforman parte de un mismo juego. Aquí no vas a encontrar una guía de plantas, aquí vas a poder crear tu propio lugar, con las especies que te interesen, las que cuidas con tanta pasión. Te proponemos que crees tu propio lugar, que vos y tus plantas sean las verdaderas protagonistas y que todas tus experiencias queden grabadas.
+            </p>
+
+
+          </div>
+
+
+
+
+
+
+
+        </section>
+
+
+
     </main>
    <footer>
      <nav>
@@ -62,5 +118,6 @@
        </ul>
     </nav>
    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
