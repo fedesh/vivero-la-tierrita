@@ -81,7 +81,6 @@ header{
        justify-content:center ;
    }
    .infoHome{
-    height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -96,23 +95,23 @@ header{
        justify-content: center;
        align-content: start;
        justify-items: center;
-    grid-area: 1 / 2 / 2 / 3;
+    
    }
    .flores_b{
     display: grid;
-    height: 100vh;
     justify-content: center;
     align-content: start;
     align-items: center;
     justify-items: center;
-    grid-area: 1 / 4 / 2 / 5;
+    
    }
    .jardin_c{
     display: grid;
     justify-content: center;
     align-content: start;
+    align-items: centernpm;
     justify-items: center;
-    grid-area: 1 / 6 / 2 / 7;
+    
    }
    .imagen_pequeña{
        width: 240px;
@@ -203,25 +202,14 @@ header{
     }
     .mainQ{
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         justify-items: center;
         align-items: center;
     }
-    .texto1{
-        grid-area: 2 / 2 / 4 / 4;
-    }
-    .imagen1{
-        grid-area: 2 / 4 / 4 / 5;
-    }
-    .texto2{
-        grid-area: 5 / 2 / 7 / 4;
-    }
-    .imagen2{
-        grid-area: 5 / 4 / 7 / 5;
-    }
+    
     .Formulario{
         width: 500px;
     }
@@ -258,6 +246,7 @@ header{
                 }
                 .mainQ{
                     grid-template-columns: 1fr;
+                    grid-template-rows: repeat(2);
                 }
                 .mainContent{
                     grid-template-columns: 1fr;
@@ -265,7 +254,7 @@ header{
               header{
                   grid-template-columns: 1fr;
               } 
-              .infoHome div{
+              .infoHome{
                   grid-template-columns: 1fr;
                   grid-template-rows: repeat(3);
               }
