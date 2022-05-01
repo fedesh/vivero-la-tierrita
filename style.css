@@ -71,11 +71,7 @@ header{
     background-size: auto;
     object-fit: cover;
    }
-   .carousel-item{
-    max-width: 300px;
-    max-height: 180px;
-    
-   }
+
    .container div{
        display: flex;
        justify-content:center ;
@@ -194,16 +190,10 @@ header{
         display: block;
         margin: 0px auto;
     }
-    .mainContent{
-        display: grid;
-        grid-template-columns:repeat(3, 1fr);
-        justify-items: center;
-        
-    }
     .mainQ{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         justify-items: center;
@@ -212,6 +202,40 @@ header{
     
     .Formulario{
         width: 500px;
+    }
+    .pagination{
+        display: flex;
+        justify-content: center;
+    }
+    .recomendaciones{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-size: 21px;
+        font-style: oblique;
+        font-family:Arial, Helvetica, sans-serif;
+        line-height: 36px;
+    }
+    .mainContent{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+        row-gap: 10px;
+        align-items: center;
+        
+        
+    }
+    .reco_temporadas{
+        height: 250px;
+        width: 500px;
+        
+        
+    }
+    .reco{
+        grid-column: 1/4;
+        width: 500px;
+        height: 300px;
     }
 
                                     /*main -- fin */
@@ -250,6 +274,7 @@ header{
                 }
                 .mainContent{
                     grid-template-columns: 1fr;
+                    grid-template-rows: repeat(3,1fr);
                 }
               header{
                   grid-template-columns: 1fr;
