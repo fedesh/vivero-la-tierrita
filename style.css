@@ -219,7 +219,7 @@ header{
     .mainContent{
         display: grid;
         grid-template-columns:repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         justify-items: center;
         row-gap: 10px;
         align-items: center;
@@ -233,11 +233,21 @@ header{
         
     }
     .reco_div{
-        grid-template-columns: 1/4;
+        grid-column: 1/4;
+        width: 100%;
+        background-position:center;
+
+
+
+        
+       
+        
+    
     }
     .reco{
         width: 100%;
-    }
+        background-position:center;
+
 
                                     /*main -- fin */
     footer{
@@ -267,11 +277,11 @@ header{
              }
              .mainTienda{
                  grid-template-columns: 1fr;
-                 grid-template-rows: repeat(6);
+                 grid-template-rows: repeat(15);
                 }
                 .mainQ{
                     grid-template-columns: 1fr;
-                    grid-template-rows: repeat(2);
+                    grid-template-rows: repeat();
                 }
                 .mainContent{
                     grid-template-columns: 1fr;
