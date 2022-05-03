@@ -232,10 +232,11 @@ header{
         
         
     }
+    .reco_div{
+        grid-template-columns: 1/4;
+    }
     .reco{
-        grid-column: 1/4;
-        width: 500px;
-        height: 300px;
+        width: 100%;
     }
 
                                     /*main -- fin */
