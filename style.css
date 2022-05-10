@@ -162,8 +162,8 @@ header{
         grid-template-columns:repeat(5, 1fr);
         }
     .mainTienda > *{
-        background-color: rgb(201, 184, 184);
-    }
+            background-color: rgb(201, 184, 184);
+        }
     a{
         text-decoration: none;
         color: black ;

@@ -1,18 +1,20 @@
 //variables
 
-@import './_variables';
+@import './variables';
 
 //header
 
-@import './components/_header';
+@import './components/contacto';
 
 //main
 
-@import './components/_main';
+@import './components/main';
 
 //footer
 
-@import './components/_footer';
+@import './components/footer';
 
 @import './components/tienda';
+
+@import './components/temporadas'
 

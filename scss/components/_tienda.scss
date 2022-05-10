@@ -1,22 +1,22 @@
-.tienda_tienda{
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    padding: 15px;      
-}
 .mainTienda div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.tituloSupe{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
+    .tienda_tienda{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        padding: 15px;      
+        .tituloSupe{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            }
     }
+}
 .mainTienda{
         display: grid;
         grid-template-columns:repeat(5, 1fr);
