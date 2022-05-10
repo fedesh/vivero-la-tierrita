@@ -24,3 +24,17 @@
 .mainTienda > *{
     background-color: rgb(201, 184, 184);
 }
+main li{
+    list-style: none;
+    text-decoration: none;
+    color: black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 450;
+    font-style: initial;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 26px;
+  }

@@ -6,4 +6,17 @@
     grid-row-gap: 0px;
     justify-items: center;
     align-items: center;
+
+    .textoVerde{
+        color: rgb(0, 126, 0);
+        text-align:left;
+        font-size: 18px;
+        display: block;
+        margin: 0px auto;
+    }
 }
+main{
+    margin: 2px;
+    background-color:rgb(207, 209, 173);
+    width: 100%;
+    }
