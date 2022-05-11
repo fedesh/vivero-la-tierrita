@@ -25,5 +25,31 @@
     grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 6px;
-
+    .macetas_a{
+        display: grid;
+        justify-content: center;
+        align-content: start;
+        justify-items: center;
+     
+    }
+    .flores_b{
+     display: grid;
+     justify-content: center;
+     align-content: start;
+     align-items: center;
+     justify-items: center;
+     
+    }
+    .jardin_c{
+     display: grid;
+     justify-content: center;
+     align-content: start;
+     align-items: center;
+     justify-items: center;
+     
+    }
+    .imagen_pequeña{
+        width: 240px;
+        height: 260px;
+    }
    }
