@@ -1,8 +1,5 @@
 .mainTienda div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include position( column, center, center);
     .tienda_tienda{
         display: flex;
         justify-content: center;
@@ -28,10 +25,7 @@ main li{
     list-style: none;
     text-decoration: none;
     color: black ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include position( column, center, center);
     font-size: 21px;
     font-weight: 450;
     font-style: initial;

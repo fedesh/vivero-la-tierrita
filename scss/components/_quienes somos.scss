@@ -1,11 +1,10 @@
 .mainQ{
-    display: grid;
+    @extend %grid-center;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    justify-items: center;
-    align-items: center;
+    
 
     .textoVerde{
         color: rgb(0, 126, 0);
@@ -14,6 +13,10 @@
         display: block;
         margin: 0px auto;
     }
+    .primaveraFlor{
+        height: 230px;
+        width: 350px;
+        }
 }
 main{
     margin: 2px;

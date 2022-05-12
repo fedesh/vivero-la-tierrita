@@ -68,13 +68,7 @@ header{
        justify-content: center;
        width: 100%;
    }
-    .barrasRedes li{
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    display: inline-block;
-    margin: 20px;
-    }
+    
     .flores{
     max-width: 300px;
     max-height: 300px;
@@ -82,30 +76,15 @@ header{
     padding: 5px;
     display: inline-block;
     }
-    .primaveraFlor{
-        height: 230px;
-        width: 350px;
-        
-    }
+   
    
   
-    a{
-        text-decoration: none;
-        color: black ;
-      }
+    
      
-        .textoVerde{
-        color: rgb(0, 126, 0);
-        text-align:left;
-        font-size: 18px;
-        display: block;
-        margin: 0px auto;
-    }
+      
     
     
-    .Formulario{
-        width: 500px;
-    }
+   
     
     
     
@@ -120,11 +99,7 @@ header{
                                     /*main -- fin */
     
     
-    .formulario{
-            text-align: center;
-            display: block;
-            margin: 0px auto;
-         }
+    
          @media (max-width: 768px){
              .main-home{
                  grid-template-columns: 1fr;

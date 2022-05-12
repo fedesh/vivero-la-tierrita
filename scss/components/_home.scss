@@ -1,10 +1,7 @@
 .textoEnriquecido{
-    font-size: 21px;
     font-weight: 450;
-    font-style: oblique;
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: 36px;
-       }
+    @extend %tipografia;
+    }
        
    .imagenLarga{
     width: 100%;
@@ -26,26 +23,15 @@
     grid-column-gap: 10px;
     grid-row-gap: 6px;
     .macetas_a{
-        display: grid;
-        justify-content: center;
-        align-content: start;
-        justify-items: center;
+        @extend %grid-center2;
      
     }
     .flores_b{
-     display: grid;
-     justify-content: center;
-     align-content: start;
-     align-items: center;
-     justify-items: center;
+        @extend %grid-center2;
      
     }
     .jardin_c{
-     display: grid;
-     justify-content: center;
-     align-content: start;
-     align-items: center;
-     justify-items: center;
+        @extend %grid-center2;
      
     }
     .imagen_pequeña{
