@@ -52,6 +52,15 @@ $colores:(
     align-items: $align;
 };
 
+
+@mixin mediaQuery($pantalla) {
+    @if $pantalla == 'mobile'{
+        @media only screen and (max-width: 768px){
+            @content;
+        }
+    }
+    
+}
     
 
 

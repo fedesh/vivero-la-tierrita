@@ -51,6 +51,9 @@
   grid-template-rows: 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 6px; }
+  @media only screen and (max-width: 768px) {
+    .infoHome {
+      grid-template-columns: 1fr; } }
   .infoHome .imagen_pequeña {
     width: 240px;
     height: 260px; }
@@ -103,6 +106,10 @@ footer {
 .mainTienda {
   display: grid;
   grid-template-columns: repeat(5, 1fr); }
+  @media only screen and (max-width: 768px) {
+    .mainTienda {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(15); } }
 
 .mainTienda > * {
   background-color: #c9b8b8; }
@@ -132,6 +139,9 @@ main li {
   row-gap: 10px;
   background: #9194a2;
   background: linear-gradient(0deg, #9194a2 0%, #e9890a 49%, #81e000 100%); }
+  @media only screen and (max-width: 768px) {
+    .mainContent {
+      grid-template-columns: 1fr; } }
   .mainContent .reco_temporadas {
     height: 250px;
     width: 500px; }
@@ -140,12 +150,24 @@ main li {
     background-position: center; }
   .mainContent .reco_div {
     background-image: url("../imagenes/primavera_imagen2.png"); }
+    @media only screen and (max-width: 768px) {
+      .mainContent .reco_div {
+        grid-column: 1/2; } }
   .mainContent .reco_div2 {
     background-image: url("../imagenes/arenas_playa.jpg"); }
+    @media only screen and (max-width: 768px) {
+      .mainContent .reco_div2 {
+        grid-column: 1/2; } }
   .mainContent .reco_div3 {
     background-image: url("../imagenes/otoño.jpg"); }
+    @media only screen and (max-width: 768px) {
+      .mainContent .reco_div3 {
+        grid-column: 1/2; } }
   .mainContent .reco_div4 {
     background-image: url("../imagenes/imagen_invierno.jpg"); }
+    @media only screen and (max-width: 768px) {
+      .mainContent .reco_div4 {
+        grid-column: 1/2; } }
 
 .header {
   background-color: #62c762; }
@@ -160,6 +182,9 @@ header {
   align-items: center;
   flex-direction: column;
   background-image: linear-gradient(to bottom, yellow, green); }
+  @media only screen and (max-width: 768px) {
+    header {
+      grid-template-columns: 1fr; } }
   header .imagenVivero {
     display: inline;
     margin: 0px auto;
@@ -185,6 +210,9 @@ header {
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px; }
+  @media only screen and (max-width: 768px) {
+    .mainQ {
+      grid-template-columns: 1fr; } }
   .mainQ .textoVerde {
     color: #007e00;
     text-align: left;

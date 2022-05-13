@@ -6,6 +6,9 @@
     row-gap: 10px;
     background: rgb(145,148,162);
     background: linear-gradient(0deg, rgba(145,148,162,1) 0%, rgba(233,137,10,1) 49%, rgba(129,224,0,1) 100%);
+    @include mediaQuery(mobile){
+        grid-template-columns: 1fr;
+    }
 
     .reco_temporadas{
         height: 250px;
@@ -18,25 +21,37 @@
     .recomendaciones{
         @extend %grid-center;
        @extend %tipografia;
-        }
+    }
     .reco_div{
         @extend %posiciones;
         background-image: url("../imagenes/primavera_imagen2.png");
         @extend %posiciones2;
+        @include mediaQuery(mobile){
+         grid-column: 1/2;
+        }
         }
     .reco_div2{
         @extend %posiciones;
         background-image: url("../imagenes/arenas_playa.jpg");
         @extend %posiciones2;
+        @include mediaQuery(mobile){
+            grid-column: 1/2;
+           }
         }
         .reco_div3{
             @extend %posiciones;
             background-image: url("../imagenes/otoño.jpg");
             @extend %posiciones2;
+            @include mediaQuery(mobile){
+                grid-column: 1/2;
+               }
         }
         .reco_div4{
            @extend %posiciones;
             background-image: url("../imagenes/imagen_invierno.jpg");
             @extend %posiciones2;
+            @include mediaQuery(mobile){
+                grid-column: 1/2;
+               }
         }
 }    

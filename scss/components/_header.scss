@@ -11,6 +11,9 @@ header{
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(to bottom, yellow , green );
+    @include mediaQuery(mobile){
+        grid-template-columns: 1fr;
+    }
     
     .imagenVivero{
         display: inline;
